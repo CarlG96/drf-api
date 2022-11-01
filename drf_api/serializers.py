@@ -1,3 +1,4 @@
+from django.contrib.humanize.templatetags.humanize import naturaltime
 from dj_rest_auth.serializers import UserDetailsSerializer
 from rest_framework import serializers
 
